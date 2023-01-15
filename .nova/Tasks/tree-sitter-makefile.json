@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\ngit submodule update --remote\ncd tree-sitter-makefile\nnpm install\nnode_modules\/.bin\/tree-sitter generate --no-bindings\n\n[ -f panic_script.zip ] || curl -fsSL https:\/\/docs.nova.app\/syntax-reference\/build_script.zip > panic_script.zip\nunzip panic_script.zip TreeSitterParserBuild\/compile_parser.sh TreeSitterParserBuild\/Makefile\nmv -f TreeSitterParserBuild\/* .\nrmdir TreeSitterParserBuild\nCC=\"cc -arch arm64 -arch x86_64\"  make\ncodesign -s - libtree-sitter-makefile.dylib\nmv -f libtree-sitter-makefile.dylib ..\/Syntaxes"
+      "script" : "#!\/bin\/sh\ngit submodule update --init --recursive\ncd tree-sitter-makefile\nnpm install\nnode_modules\/.bin\/tree-sitter generate --no-bindings\n\n[ -f panic_script.zip ] || curl -fsSL https:\/\/docs.nova.app\/syntax-reference\/build_script.zip > panic_script.zip\nunzip panic_script.zip TreeSitterParserBuild\/compile_parser.sh TreeSitterParserBuild\/Makefile\nmv -f TreeSitterParserBuild\/* .\nrmdir TreeSitterParserBuild\nCC=\"cc -arch arm64 -arch x86_64\"  make\ncodesign -s - libtree-sitter-makefile.dylib\nmv -f libtree-sitter-makefile.dylib ..\/Syntaxes"
     },
     "clean" : {
       "enabled" : true,
