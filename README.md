@@ -13,7 +13,8 @@
  - Open source (GPL-3.0 license)
 
 ## Installation
-Download [here](nova://extension?id=es.Makefile) or goto to menu `Extensions` > `Extension Library...` and search for `es.Makefile`.
+ - Navigate to `nova://extension?id=es.Makefile` in a browser; or
+ - Open Nova and go to menu `Extensions` > `Extension Library...` and search for `es.Makefile`.
 
 Makefile syntax will be added under menu `Editor` > `Syntax` > `Makefile` and will be automatically enabled based on filename and shebang heuristics upon opening of Makefile.
 
