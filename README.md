@@ -2,4 +2,4 @@
 
 **Nova** extension providing syntax highlighting for **Makefile**.
 
-![image](/extension.png?raw=true)
+![image](https://github.com/eszense/Makefile.novaextension/raw/main/extension.png)
