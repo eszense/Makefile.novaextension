@@ -3,7 +3,7 @@
     "name": "Makefile",
     "organization": "eszense",
     "description": "Provides syntax highlighting for Makefile.",
-    "version": "1.1",
+    "version": "1.2",
     "categories": ["languages"],
     "bugs": "https://github.com/eszense/Makefile.novaextension/issues",
     "repository": "https://github.com/eszense/Makefile.novaextension"
