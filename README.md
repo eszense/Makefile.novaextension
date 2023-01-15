@@ -1,3 +1,5 @@
-Provides syntax highlighting for **Makefile**.
+# Makefile.novaextension
 
-!(https://github.com/eszense/Makefile.novaextension/blob/master/extension.png?raw=true)
+**Nova** extension providing syntax highlighting for **Makefile**.
+
+![image](/extension.png?raw=true)
