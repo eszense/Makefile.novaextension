@@ -5,10 +5,10 @@
         <type>script</type>
         <preferred-file-extension>mk</preferred-file-extension>
     </meta>
-    
+
     <detectors>
         <extension priority="1.0">mk,mak,make</extension>
-        <filename priority="1.0">Makefile,GNUmakefile,OCamlMakefile</filename>
+        <filename priority="1.0">GNUmakefile,makefile,Makefile,OCamlMakefile</filename>
         <match-content lines="1" priority="0.7">\#\!.*?\bmake\b</match-content>
     </detectors>
 
