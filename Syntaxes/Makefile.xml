@@ -18,6 +18,12 @@
         </single>
     </comments>
     
+    <indentation>
+        <increase>
+            <expression>(^[^\s][^:]*?:(?!=).*)</expression>
+        </increase>
+    </indentation>
+    
     <tree-sitter language="makefile">
         <highlights path="highlights.scm" />
     </tree-sitter>
