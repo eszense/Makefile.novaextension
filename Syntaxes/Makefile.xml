@@ -26,5 +26,6 @@
     
     <tree-sitter language="makefile">
         <highlights path="highlights.scm" />
+        <injections path="injections.scm" />
     </tree-sitter>
 </syntax>
