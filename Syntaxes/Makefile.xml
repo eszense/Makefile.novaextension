@@ -12,7 +12,21 @@
         <match-content lines="1" priority="0.7">\#\!.*?\bmake\b</match-content>
     </detectors>
 
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+    </comments>
+
+    <indentation>
+        <increase>
+            <expression>(^[^\s][^:]*?:(?!=).*)</expression>
+        </increase>
+    </indentation>
+
     <tree-sitter language="makefile">
-        <highlights path="highlights.scm" />
+        <highlights/>
+        <injections/>
+        <symbols/>
     </tree-sitter>
 </syntax>

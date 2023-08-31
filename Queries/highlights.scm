@@ -1,6 +1,5 @@
 [
   "(" ")"
-;  "{" "}"
 ] @bracket
 
 [
@@ -80,11 +79,11 @@
   name: (word) @identifier.variable)
 
 
-(targets) @identifier.function
+(targets) @processing.directive
 (rule
   target: (_) @string-template) 
 
 (recipe_line
   ["@" "-" "+"] @keyword.modifier) 
   
-(prerequisites) @identifier.function
+(prerequisites) @processing.argument
