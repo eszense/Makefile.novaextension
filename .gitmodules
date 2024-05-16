@@ -1,3 +1,4 @@
 [submodule "tree-sitter-makefile"]
+	shallow = true
 	path = tree-sitter-makefile
 	url = https://github.com/eszense/tree-sitter-makefile.git

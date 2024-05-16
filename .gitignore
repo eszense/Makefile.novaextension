@@ -1,1 +1,3 @@
 .DS_Store
+build/
+Syntaxes/libtree-sitter-makefile.dylib
